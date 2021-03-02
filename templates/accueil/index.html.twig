@@ -1,0 +1,252 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Portfolio | Leo Pecqueux{% endblock %}
+
+{% block body %}
+    <div id="page-wraper">
+        <!-- Sidebar Menu -->
+        <div class="responsive-nav">
+            <i class="fa fa-bars" id="menu-toggle"></i>
+            <div id="menu" class="menu">
+                <i class="fa fa-times" id="menu-close"></i>
+                <div class="container">
+                    <div class="image">
+                        <a href="#"><img src="assets/images/author-image.jpg" alt="" /></a>
+                    </div>
+                    <div class="author-content">
+                        <h4>Leo</h4>
+                        <span>Etudiant</span>
+                    </div>
+                    <nav class="main-nav" role="navigation">
+                        <ul class="main-menu">
+                            <li><a href="#section1">Profil</a></li>
+                            <li><a href="#section2">Competences</a></li>
+                            <li><a href="#section3">Articles</a></li>
+                            <li><a href="#section4">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <div class="social-network">
+                        <ul class="soial-icons">
+                            <li>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-dribbble"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-rss"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="copyright-text">
+                        <p>Copyright 2019 Reflux Design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="section about-me" data-section="section1">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Mon profil</h2>
+                    <div class="line-dec"></div>
+                    <span>Etudiant en Developpement au Lycée Paul Claudel</span>
+                </div>
+                <div class="left-image-post">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="left-image">
+                                <img src="assets/images/left-image.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="right-text">
+                                <p>
+                                    J'suis un malade
+                                </p>
+                                <div class="white-button">
+                                    <a href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-image-post">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="left-text">
+                                <h4>Sed sagittis rhoncus velit</h4>
+                                <p>
+                                    Pellentesque habitant morbi tristique senectus et netus et
+                                    malesuada fames ac turpis egestas. Vestibulum fermentum
+                                    eleifend nibh, vitae sodales elit finibus pretium.
+                                    Suspendisse potenti. Ut sollicitudin risus a sollicitudin
+                                    semper.
+                                </p>
+                                <div class="white-button">
+                                    <a href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="right-image">
+                                <img src="assets/images/right-image.jpg" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section my-services" data-section="section2">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Mes compétences</h2>
+                    <div class="line-dec"></div>
+                    <span>Ceci n'est qu'une estimation personel de mon niveau.</span>
+                </div>
+                <div class="row">
+                    {% for comp in competences %}
+                        <div class="col-md-6">
+                            <div class="service-item">
+                                <div class="second-service-icon service-icon"></div>
+                                <h4>{{ comp.nom }}</h4>
+                                <p>
+                                    Je maîtrise {{ comp.nom }} à {{ comp.niveau }}%
+                                </p>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+
+        <section class="section my-work" data-section="section3">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Articles</h2>
+                    <div class="line-dec"></div>
+                    <span>Ici sont regroupés, en catégories, différents articles concernant mes travaux, ma veille juridique et informatique.</span>
+                </div>
+                <div class="row">
+                    <div class="isotope-wrapper">
+                        <form class="isotope-toolbar">
+                            <label>
+                                <input type="radio" data-type="*" checked="" name="isotope-filter"/>
+                                <span>tous</span></label>
+                            <label
+                            {% for categ in categories %}
+                            <label>
+                                <input type="radio" data-type="{{ categ.id }}" checked="" name="isotope-filter"/>
+                                <span>{{ categ.nom }}</span></label>
+                            <label
+                            {% endfor %}
+                        </form>
+                        <div class="isotope-box">
+
+                            {% for article in articles %}
+                                <div class="isotope-item" data-type={{ article.getCategoryId }}>
+                                    <figure class="snip1321">
+                                        <img
+                                                src={{ article.image }}
+                                                alt="sq-sample26"/>
+                                        <figcaption>
+                                            <a
+                                                    href={{ article.image }}
+                                                    data-lightbox="image-1"
+                                                    data-title="Caption"
+                                            ><i class="fa fa-search"></i
+                                                ></a>
+                                            <h4>{{ article.nom }}</h4>
+                                            <span>{{ article.lien }}</span>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section contact-me" data-section="section4">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Contact</h2>
+                    <div class="line-dec"></div>
+                </div>
+                <div class="row">
+                    <div class="right-content">
+                        <div class="container">
+                            <form id="contact" action="" method="post">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <fieldset>
+                                            <input
+                                                    name="name"
+                                                    type="text"
+                                                    class="form-control"
+                                                    id="name"
+                                                    placeholder="Your name..."
+                                                    required=""
+                                            />
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <fieldset>
+                                            <input
+                                                    name="email"
+                                                    type="text"
+                                                    class="form-control"
+                                                    id="email"
+                                                    placeholder="Your email..."
+                                                    required=""
+                                            />
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <fieldset>
+                                            <input
+                                                    name="subject"
+                                                    type="text"
+                                                    class="form-control"
+                                                    id="subject"
+                                                    placeholder="Subject..."
+                                                    required=""
+                                            />
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <fieldset>
+                    <textarea
+                            name="message"
+                            rows="6"
+                            class="form-control"
+                            id="message"
+                            placeholder="Your message..."
+                            required=""
+                    ></textarea>
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <fieldset>
+                                            <button type="submit" id="form-submit" class="button">
+                                                Envoyer
+                                            </button>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+{% endblock %}

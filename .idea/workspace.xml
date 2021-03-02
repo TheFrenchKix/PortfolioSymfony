@@ -1,14 +1,198 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13ca3dab-462c-4a2f-beb1-d36c63819ecd" name="Default Changelist" comment="" />
+    <list default="true" id="13ca3dab-462c-4a2f-beb1-d36c63819ecd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/action.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/detail.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/field/array.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/field/association.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/field/avatar.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/field/boolean.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/field/choice.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/field/code_editor.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/field/collection.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/field/color.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/field/country.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/field/currency.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/field/date.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/field/datetime.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/field/email.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/field/generic.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/field/hidden.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/field/id.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/field/image.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/field/integer.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/field/language.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/field/locale.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/field/money.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/field/number.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/field/percent.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/field/telephone.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/field/text.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/field/text_editor.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/field/textarea.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/field/time.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/field/timezone.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/field/url.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/filters.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/form_theme.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/includes/_batch_action_modal.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/includes/_delete_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/includes/_filters_modal.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/includes/_select2_widget.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/crud/paginator.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/exception.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/flash_messages.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/inspector/data_collector.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/inspector/icon.svg.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/label/empty.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/label/inaccessible.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/label/null.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/label/undefined.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/layout.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/menu.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/page/content.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/page/login.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/page/login_minimal.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundle/EasyAdminBundle/welcome.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes/annotations.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes/annotations.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/Portfolio/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/Portfolio/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/friendsofphp/proxy-manager-lts" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/doctrine/sql-formatter" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/web-profiler-bundle" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/web-link" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/security-http" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/security-guard" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/security-csrf" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/security-core" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/security-bundle" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/proxy-manager-bridge" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/notifier" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/monolog-bridge" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/http-client" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/form" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/debug-bundle" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/laminas/laminas-zendframework-bridge" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/laminas/laminas-eventmanager" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/laminas/laminas-code" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/twig/extra-bundle" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/composer" />
+    </include_path>
   </component>
   <component name="ProjectId" id="1pA1h9FxLQS2eOUrPgLmFEnaAT7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -19,8 +203,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.jetbrains.php.lang.actions.generation.PhpGenerateFieldAccessorHandlerBase$MyMemberChooser.fluent.setters.last.selected" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/bundle/EasyAdminBundle" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Ecole\Portfolio\templates\bundle\EasyAdminBundle" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -31,10 +223,52 @@
       <option name="presentableId" value="Default" />
       <updated>1614611197294</updated>
       <workItem from="1614611198439" duration="327000" />
+      <workItem from="1614611534636" duration="3682000" />
+      <workItem from="1614615238691" duration="1686000" />
+      <workItem from="1614616939292" duration="11788000" />
+      <workItem from="1614698083288" duration="10903000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="732" y="264" key="#com.intellij.ide.util.MemberChooser" timestamp="1614628887280">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="732" y="264" key="#com.intellij.ide.util.MemberChooser/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1614628887280" />
+    <state x="690" y="310" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1614706941248">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="690" y="310" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1614706941248" />
+    <state x="740" y="481" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#" timestamp="1614621885015">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="740" y="481" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1614621885015" />
+    <state x="755" y="279" key="NewPhpClassDialog" timestamp="1614623791949">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="755" y="279" key="NewPhpClassDialog/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1614623791949" />
+    <state x="491" y="200" key="SettingsEditor" timestamp="1614699764942">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="491" y="200" key="SettingsEditor/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1614699764942" />
+    <state x="569" y="212" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1614617946103">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="569" y="212" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1614617946103" />
+    <state x="742" y="469" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614706582092">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="742" y="469" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1614706582092" />
+    <state x="643" y="165" width="680" height="780" key="find.popup" timestamp="1614699758062">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="643" y="165" width="680" height="780" key="find.popup/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1614699758062" />
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1614623762445">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1614623762445" />
   </component>
 </project>

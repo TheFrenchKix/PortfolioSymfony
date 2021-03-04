@@ -4,6 +4,7 @@ namespace App\Controller\Admin;
 
 use App\Entity\Projet;
 use EasyCorp\Bundle\EasyAdminBundle\Controller\AbstractCrudController;
+use EasyCorp\Bundle\EasyAdminBundle\Field\AssociationField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\DateTimeField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\IdField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\ImageField;
@@ -24,11 +25,11 @@ class ProjetCrudController extends AbstractCrudController
         return [
             TextField::new('nom'),
             TextField::new('description'),
-            TextField::new('imageFile')->setFormType(VichFileType::class, [
+            /*TextField::new('imageFile')->setFormType(VichFileType::class, [
                 'delete_label' => 'supprimer?'
             ])->onlyOnForms(),
             ImageField::new('image')->setBasePath('%app.path.imageDir%')->onlyOnDetail(),
-            ImageField::new('imageFile')->setFormType(VichImageType::class)
+            ImageField::new('imageFile')->setFormType(VichImageType::class)*/
         ];
     }
 }

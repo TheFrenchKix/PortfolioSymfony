@@ -3,10 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="13ca3dab-462c-4a2f-beb1-d36c63819ecd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/ArticlesCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/ArticlesCrudController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/Admin/ProjetCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/ProjetCrudController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/ArticleCategorie.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/ArticleCategorie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/LoginController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Utilisateurs.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/UtilisateursRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/accueil/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accueil/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login/index.html.twig" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,6 +170,8 @@
       <workItem from="1614615238691" duration="1686000" />
       <workItem from="1614616939292" duration="11788000" />
       <workItem from="1614698083288" duration="10903000" />
+      <workItem from="1615032935291" duration="1291000" />
+      <workItem from="1615302472293" duration="1726000" />
     </task>
     <servers />
   </component>
@@ -200,10 +207,10 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="742" y="469" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1614706582092" />
-    <state x="643" y="165" width="680" height="780" key="find.popup" timestamp="1614699758062">
+    <state x="643" y="165" width="680" height="780" key="find.popup" timestamp="1615303293958">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="643" y="165" width="680" height="780" key="find.popup/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1614699758062" />
+    <state x="643" y="165" width="680" height="780" key="find.popup/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1615303293958" />
     <state x="623" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1614623762445">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>

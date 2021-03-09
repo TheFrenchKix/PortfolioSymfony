@@ -25,11 +25,11 @@ class ProjetCrudController extends AbstractCrudController
         return [
             TextField::new('nom'),
             TextField::new('description'),
-            /*TextField::new('imageFile')->setFormType(VichFileType::class, [
+            TextField::new('imageFile')->setFormType(VichFileType::class, [
                 'delete_label' => 'supprimer?'
             ])->onlyOnForms(),
             ImageField::new('image')->setBasePath('%app.path.imageDir%')->onlyOnDetail(),
-            ImageField::new('imageFile')->setFormType(VichImageType::class)*/
+            ImageField::new('imageFile')->setFormType(VichImageType::class)
         ];
     }
 }

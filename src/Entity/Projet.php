@@ -49,7 +49,7 @@ class Projet
 
     /**
      * Projet constructor.
-     * @param DateTime $updatedAtb
+     * @param DateTime $updatedAt
      */
     public function __construct()
     {

@@ -5,3 +5,4 @@ vich_uploader:
         imageDir:
             uri_prefix: '%app.path.imageDir%'
             upload_destination: '%kernel.project_dir%/public%app.path.imageDir%'
+            namer: Vich\UploaderBundle\Naming\UniqidNamer

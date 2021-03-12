@@ -18,7 +18,7 @@ class Competences
     private $id;
 
     /**
-     * @ORM\Column(type="integer")
+     * @ORM\Column(type="string")
      */
     private $niveau;
 
@@ -32,12 +32,12 @@ class Competences
         return $this->id;
     }
 
-    public function getNiveau(): ?int
+    public function getNiveau(): ?string
     {
         return $this->niveau;
     }
 
-    public function setNiveau(int $niveau): self
+    public function setNiveau(string $niveau): self
     {
         $this->niveau = $niveau;
 

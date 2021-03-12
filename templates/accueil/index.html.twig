@@ -36,24 +36,15 @@
                     <div class="social-network">
                         <ul class="soial-icons">
                             <li>
-                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="https://fr-fr.facebook.com/leo.pecqueux"><i class="fa fa-facebook"></i></a>
                             </li>
                             <li>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="https://twitter.com/leoenvelo"><i class="fa fa-twitter"></i></a>
                             </li>
                             <li>
-                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa fa-dribbble"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa fa-rss"></i></a>
+                                <a href="mailto:pecqueux.leo@gmail.com"><i class="fa fa-google"></i></a>
                             </li>
                         </ul>
-                    </div>
-                    <div class="copyright-text">
-                        <p>Copyright 2019 Reflux Design</p>
                     </div>
                 </div>
             </div>
@@ -76,11 +67,8 @@
                         <div class="col-md-6">
                             <div class="right-text">
                                 <p>
-                                    J'suis un malade
+                                    Test vous pouvez retrouver mon <a href="assets/images/CV.pdf">CV</a>
                                 </p>
-                                <div class="white-button">
-                                    <a href="#">Read More</a>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -126,7 +114,7 @@
                                 <div class="second-service-icon service-icon"></div>
                                 <h4>{{ comp.nom }}</h4>
                                 <p>
-                                    Je maîtrise {{ comp.nom }} à {{ comp.niveau }}%
+                                    {{ comp.niveau }}
                                 </p>
                             </div>
                         </div>
@@ -140,7 +128,7 @@
                 <div class="section-heading">
                     <h2>Articles</h2>
                     <div class="line-dec"></div>
-                    <span>Ici sont regroupés, en catégories, différents articles concernant mes travaux, ma veille juridique et informatique.</span>
+                    <span>Ici sont regroupés, en catégories, différents articles concernant mes travaux, ma veille informatique et juridique.</span>
                 </div>
                 <div class="row">
                     <div class="isotope-wrapper">
@@ -169,10 +157,9 @@
                                                     href={{ article.image }}
                                                     data-lightbox="image-1"
                                                     data-title="Caption"
-                                            ><i class="fa fa-search"></i
-                                                ></a>
+                                            ></a>
                                             <h4>{{ article.nom }}</h4>
-                                            <span>{{ article.lien }}</span>
+                                            <a style="color: steelblue"; href="{{ article.lien }}">Lien direct</a>
                                         </figcaption>
                                     </figure>
                                 </div>

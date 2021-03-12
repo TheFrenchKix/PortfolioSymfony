@@ -13,7 +13,7 @@ class CompetencesFixtures extends Fixture
         for($i = 1; $i <= 5; $i++){
             $comp = new Competences();
             $comp   ->setNom("Competence n°$i")
-                    ->setNiveau(rand(0, 100));
+                    ->setNiveau("Je suis un bonne element dans la Competence $i");
             $manager->persist($comp);
         }
 

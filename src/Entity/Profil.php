@@ -71,6 +71,11 @@ class Profil
      */
     private $cvFile;
 
+    /**
+     * @ORM\Column(type="text")
+     */
+    private $presentation;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -230,6 +235,18 @@ class Profil
     public function setCv(?string $cv): self
     {
         $this->cv = $cv;
+
+        return $this;
+    }
+
+    public function getPresentation(): ?string
+    {
+        return $this->presentation;
+    }
+
+    public function setPresentation(string $presentation): self
+    {
+        $this->presentation = $presentation;
 
         return $this;
     }

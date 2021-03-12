@@ -56,12 +56,16 @@
                     <h2>Mon profil</h2>
                     <div class="line-dec"></div>
                     <span>{{ profil.situation }} en {{ profil.fonction }} | {{ profil.lieu }}</span>
-                    <div class="col-md-6">
-                        <div class="right-text">
-                            <p>
-                                Vous pouvez retrouver mon <a style="color: lightblue"; href="uploads/images/{{ profil.cv }}">Curriculum vitæ</a> afin de consulter mes diverses expériences professionel ou les formations que j'ai pu entreprendre durant ma scolarité ou en extra-scolaire.
-                            </p>
-                        </div>
+                    <div class="right-text">
+                        <p>
+                            Vous pouvez retrouver mon <a style="color: lightblue"; href="uploads/images/{{ profil.cv }}">Curriculum vitæ</a> afin de consulter mes diverses expériences professionel ou les formations que j'ai pu entreprendre durant ma scolarité ou en extra-scolaire.
+                        </p>
+                    </div>
+                    <div class="left-image">
+                        <img style="width: 20%; float: left" src="uploads/images/{{ profil.photo }}" alt="" />
+                    </div>
+                    <div>
+                        <p>{{ profil.presentation|raw }}</p>
                     </div>
                 </div>
                 <div class="left-image-post">

@@ -5,6 +5,7 @@ namespace App\Controller\Admin;
 use App\Entity\Article;
 use App\Entity\ArticleCategorie;
 use App\Entity\Competences;
+use App\Entity\Profil;
 use App\Entity\Projet;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Dashboard;
 use EasyCorp\Bundle\EasyAdminBundle\Config\MenuItem;
@@ -37,5 +38,6 @@ class DashboardController extends AbstractDashboardController
         yield MenuItem::linkToCrud('Competences', 'fa fa-graduation-cap', Competences::class);
         yield MenuItem::linkToCrud('Articles', 'fa fa-book', Article::class);
         yield MenuItem::linkToCrud('Categories', 'fa fa-archive', ArticleCategorie::class);
+        yield MenuItem::linkToCrud('Profil', 'fa fa-archive', Profil::class);
     }
 }

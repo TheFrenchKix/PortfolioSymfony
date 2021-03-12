@@ -19,11 +19,11 @@
                 <i class="fa fa-times" id="menu-close"></i>
                 <div class="container">
                     <div class="image">
-                        <a href="#"><img src="assets/images/author-image.jpg" alt="" /></a>
+                        <a href="#"><img src="uploads/images/{{ profil.photo }}" alt="" /></a>
                     </div>
                     <div class="author-content">
-                        <h4>Leo</h4>
-                        <span>Etudiant</span>
+                        <h4>{{ profil.prenom }}</h4>
+                        <span>{{ profil.situation }}</span>
                     </div>
                     <nav class="main-nav" role="navigation">
                         <ul class="main-menu">
@@ -55,46 +55,37 @@
                 <div class="section-heading">
                     <h2>Mon profil</h2>
                     <div class="line-dec"></div>
-                    <span>Etudiant en Developpement au Lycée Paul Claudel</span>
+                    <span>{{ profil.situation }} en {{ profil.fonction }} | {{ profil.lieu }}</span>
+                    <div class="col-md-6">
+                        <div class="right-text">
+                            <p>
+                                Vous pouvez retrouver mon <a style="color: lightblue"; href="uploads/images/{{ profil.cv }}">Curriculum vitæ</a> afin de consulter mes diverses expériences professionel ou les formations que j'ai pu entreprendre durant ma scolarité ou en extra-scolaire.
+                            </p>
+                        </div>
+                    </div>
                 </div>
                 <div class="left-image-post">
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="left-image">
-                                <img src="assets/images/left-image.jpg" alt="" />
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="right-text">
-                                <p>
-                                    Test vous pouvez retrouver mon <a href="assets/images/CV.pdf">CV</a>
-                                </p>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <div class="right-image-post">
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="left-text">
-                                <h4>Sed sagittis rhoncus velit</h4>
-                                <p>
-                                    Pellentesque habitant morbi tristique senectus et netus et
-                                    malesuada fames ac turpis egestas. Vestibulum fermentum
-                                    eleifend nibh, vitae sodales elit finibus pretium.
-                                    Suspendisse potenti. Ut sollicitudin risus a sollicitudin
-                                    semper.
-                                </p>
-                                <div class="white-button">
-                                    <a href="#">Read More</a>
-                                </div>
+                            <div class="left-text section-heading">
+                                <h2>Qu'est-ce que le BTS SIO ?</h2>
+                                <p>Le BTS Services Informatiques aux Organisations est un diplôme recconu par l'état de niveau BAC+2.</p>
+                                <p>Il remplace depuis Septembre 2011, l'ancien BTS IG (Informatique de gestion).</p>
+                                <p>En effet, cette nouvelle formule réponds aux attentes de la profession en matière de qualification.</p>
+                                <p>Le programme a évolué en fonction de la place et du rôle des TIC (Technologies de l'Information et de la Communication)</p>
+                                <p>Et propose deux spécialités bien distinctes : Le BTS SIO Option SISR et le BTS SIO Option SLAM.</p>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="right-image">
-                                <img src="assets/images/right-image.jpg" alt="" />
+                            <div class="right-image section-heading">
+                                <h2>OPTION SLAM</h2>
+                                <img src="assets/images/codesourcelignes.jpg" alt="" />
                             </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -175,71 +166,6 @@
                 <div class="section-heading">
                     <h2>Contact</h2>
                     <div class="line-dec"></div>
-                </div>
-                <div class="row">
-                    <div class="right-content">
-                        <div class="container">
-                            <form id="contact" action="" method="post">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <fieldset>
-                                            <input
-                                                    name="name"
-                                                    type="text"
-                                                    class="form-control"
-                                                    id="name"
-                                                    placeholder="Your name..."
-                                                    required=""
-                                            />
-                                        </fieldset>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <fieldset>
-                                            <input
-                                                    name="email"
-                                                    type="text"
-                                                    class="form-control"
-                                                    id="email"
-                                                    placeholder="Your email..."
-                                                    required=""
-                                            />
-                                        </fieldset>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <fieldset>
-                                            <input
-                                                    name="subject"
-                                                    type="text"
-                                                    class="form-control"
-                                                    id="subject"
-                                                    placeholder="Subject..."
-                                                    required=""
-                                            />
-                                        </fieldset>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <fieldset>
-                    <textarea
-                            name="message"
-                            rows="6"
-                            class="form-control"
-                            id="message"
-                            placeholder="Your message..."
-                            required=""
-                    ></textarea>
-                                        </fieldset>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <fieldset>
-                                            <button type="submit" id="form-submit" class="button">
-                                                Envoyer
-                                            </button>
-                                        </fieldset>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>

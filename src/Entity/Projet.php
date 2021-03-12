@@ -5,7 +5,6 @@ namespace App\Entity;
 use App\Repository\ProjetRepository;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\HttpFoundation\File\File;
-use Symfony\Component\Validator\Constraints\DateTime;
 use Vich\UploaderBundle\Mapping\Annotation as Vich;
 
 /**
@@ -43,17 +42,17 @@ class Projet
 
     /**
      * @ORM\Column(type="datetime")
-     * @var DateTime
+     * @var \DateTime
      */
     private $updatedAt;
 
     /**
      * Projet constructor.
-     * @param DateTime $updatedAt
+     * @param \DateTime $updatedAt
      */
     public function __construct()
     {
-        $this->updatedAt = new DateTime();
+        $this->updatedAt = new \DateTime();
     }
 
     public function getId(): ?int
@@ -127,23 +126,23 @@ class Projet
         if (null !== $imageFile) {
             // It is required that at least one field changes if you are using doctrine
             // otherwise the event listeners won't be called and the file is lost
-            $this->updatedAt = new DateTime();
+            $this->updatedAt = new \DateTime();
         }
     }
 
     /**
-     * @return DateTime
+     * @return \DateTime
      */
-    public function getUpdatedAt(): DateTime
+    public function getUpdatedAt(): \DateTime
     {
         return $this->updatedAt;
     }
 
     /**
-     * @param DateTime $updatedAt
+     * @param \DateTime $updatedAt
      * @return Projet
      */
-    public function setUpdatedAt(DateTime $updatedAt): Projet
+    public function setUpdatedAt(\DateTime $updatedAt): Projet
     {
         $this->updatedAt = $updatedAt;
         return $this;

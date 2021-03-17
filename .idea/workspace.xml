@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13ca3dab-462c-4a2f-beb1-d36c63819ecd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/ProfilCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/ProfilCrudController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Profil.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Profil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/mailer.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/mailer.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/templatemo-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/templatemo-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/accueil/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accueil/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -182,7 +186,8 @@
       <workItem from="1615302472293" duration="1726000" />
       <workItem from="1615389424245" duration="772000" />
       <workItem from="1615477189297" duration="876000" />
-      <workItem from="1615543471735" duration="17159000" />
+      <workItem from="1615543471735" duration="17530000" />
+      <workItem from="1615983151055" duration="12492000" />
     </task>
     <servers />
   </component>
@@ -281,10 +286,11 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="643" y="165" width="680" height="780" key="find.popup/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1615303293958" />
-    <state x="467" y="195" width="672" height="582" key="search.everywhere.popup" timestamp="1615559948066">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="1855" y="222" width="672" height="663" key="search.everywhere.popup" timestamp="1615996103657">
+      <screen x="1440" y="0" width="1280" height="1024" />
     </state>
     <state x="467" y="195" width="672" height="582" key="search.everywhere.popup/0.0.1440.900/1440.0.1280.1024@0.0.1440.900" timestamp="1615559948066" />
+    <state x="1855" y="222" width="672" height="663" key="search.everywhere.popup/0.0.1440.900/1440.0.1280.1024@1440.0.1280.1024" timestamp="1615996103657" />
     <state x="623" y="257" width="672" height="678" key="search.everywhere.popup/0.30.1920.1050/1920.30.1920.1050@0.30.1920.1050" timestamp="1614623762445" />
   </component>
 </project>

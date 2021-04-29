@@ -16,7 +16,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
     width: 100%;
-}
+}f
 
 
 /* Basic */
@@ -31,9 +31,8 @@ textarea {
     outline: none;
 }
 
-a,
-a:hover {
-    color : steelblue;
+a{
+    color : red;
     text-decoration: none;
 }
 
@@ -516,7 +515,7 @@ section.my-work .section-heading {
 }
 
 .isotope-toolbar a {
-    color: #fff;
+    color: red;
 }
 
 .isotope-item {

@@ -66,8 +66,6 @@
                     </div>
                     <div class="left-image">
                         <img style="width: 20%; float: left" src="uploads/images/{{ profil.photo }}" alt="" />
-                    </div>
-                    <div style="margin-top: 30px; margin-left: 180px">
                         <p>{{ profil.presentation|raw }}</p>
                     </div>
                 </div>
@@ -175,11 +173,11 @@
                                 <div class="isotope-item" data-type={{ article.getCategoryId }}>
                                     <figure class="snip1321">
                                         <img
-                                                src={{ article.image }}
-                                                alt="sq-sample26"/>
+                                                src="uploads/images/{{ article.image }}"
+                                                alt={{ article.nom }}/>
                                         <figcaption>
                                             <a
-                                                    href={{ article.image }}
+                                                    href="uploads/images/{{ article.image }}"
                                                     data-lightbox="image-1"
                                                     data-title="Caption"
                                             ></a>

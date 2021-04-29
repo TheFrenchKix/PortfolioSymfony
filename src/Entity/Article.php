@@ -33,9 +33,29 @@ class Article
     private $image;
 
     /**
+     * @Vich\UploadableField(mapping="imageDir", fileNameProperty="image")
+     */
+    private $imageFile;
+
+    /**
+     * @ORM\Column(type="datetime")
+     * @var \DateTime
+     */
+    private $updatedAt;
+
+    /**
      * @ORM\ManyToOne(targetEntity=ArticleCategorie::class, inversedBy="article")
      */
     private $Categorie;
+
+    /**
+     * Article constructor.
+     * @param \DateTime $updatedAt
+     */
+    public function __construct()
+    {
+        $this->updatedAt = new \DateTime();
+    }
 
     public function getCategoryId()
     {

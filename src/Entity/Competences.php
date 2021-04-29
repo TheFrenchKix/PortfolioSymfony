@@ -20,7 +20,7 @@ class Competences
     /**
      * @ORM\Column(type="string")
      */
-    private $niveau;
+    private $description;
 
     /**
      * @ORM\Column(type="string", length=255)
@@ -32,14 +32,14 @@ class Competences
         return $this->id;
     }
 
-    public function getNiveau(): ?string
+    public function getDescription(): ?string
     {
-        return $this->niveau;
+        return $this->description;
     }
 
-    public function setNiveau(string $niveau): self
+    public function setDescription(string $description): self
     {
-        $this->niveau = $niveau;
+        $this->description = $description;
 
         return $this;
     }
